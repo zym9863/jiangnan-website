@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
-
 export default function TravelGuide() {
   return (
     <div className="min-h-screen">
