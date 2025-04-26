@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[中文 | Chinese](./README.md) | [English](./README_EN.md)
 
-## Getting Started
+# 江南文化旅游网站
 
-First, run the development server:
+本项目基于 [Next.js](https://nextjs.org) 框架，旨在展示江南地区的文化、景点、美食与旅游攻略，采用模块化、组件化开发，界面精致，内容丰富，适合学习和扩展。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 项目结构
+
+```
+jiangnan-website/
+├── app/
+│   ├── page.tsx                # 首页
+│   ├── attractions/            # 景点介绍页面
+│   │   └── page.tsx
+│   ├── culture/                # 江南文化页面
+│   │   └── page.tsx
+│   ├── food/                   # 美食特产页面
+│   │   └── page.tsx
+│   ├── travel-guide/           # 旅游攻略页面
+│   │   └── page.tsx
+│   ├── layout.tsx              # 全局布局
+│   └── globals.css             # 全局样式
+├── components/                 # 公共组件（如导航栏、页脚）
+├── public/                     # 静态资源
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 页面导航与功能说明
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **首页（/）**
+  - 展示江南整体魅力，包括文化、景点、美食等简介。
+  - 提供主要页面的导航入口。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **景点介绍（/attractions）**
+  - 介绍江南地区著名景点，如苏州园林、西湖、周庄古镇等。
+  - 每个景点配有简要说明和图片。
 
-## Learn More
+- **江南文化（/culture）**
+  - 展示江南地区的文学艺术、园林建筑、传统手工艺等文化内容。
+  - 包含苏绣、昆曲、越剧等非遗项目介绍。
 
-To learn more about Next.js, take a look at the following resources:
+- **美食特产（/food）**
+  - 介绍江南特色美食，如东坡肉、松鼠桂鱼、小笼包等。
+  - 每道美食配有产地、特色及简要做法说明。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **旅游攻略（/travel-guide）**
+  - 提供江南旅游的最佳季节、交通指南、住宿推荐等实用信息。
+  - 包含行程规划建议和注意事项。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 如何扩展页面
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. 在 `app/` 目录下新建子目录并添加 `page.tsx` 文件，即可创建新页面。
+2. 推荐将页面内容拆分为小组件，放入 `components/` 目录，提升复用性和可维护性。
+3. 样式建议统一写在 `globals.css`，或为每个页面/组件单独引入模块化 CSS。
+4. 导航栏和页脚可在 `components/Navbar.tsx`、`Footer.tsx` 中自定义。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

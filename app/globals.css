@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 江南水乡主题色板 - 亮色模式 */
+  --background: #f8f9fa; /* 淡雅背景 */
+  --foreground: #343a40; /* 深灰文字 */
+  --primary: #5c9a9f; /* 青蓝色 - 主色调 */
+  --secondary: #a3c1ad; /* 灰绿色 - 辅助色 */
+  --accent: #e0e7e1; /* 淡灰绿 - 点缀色 */
+  --card-background: #ffffff; /* 卡片背景 */
+  --card-border: #dee2e6; /* 卡片边框 */
+  --link-color: #4a7c80; /* 链接颜色 */
+  --button-bg: var(--primary);
+  --button-text: #ffffff;
+  --button-hover-bg: #4a7c80;
 }
 
 @theme inline {
@@ -14,13 +24,68 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* 江南水乡主题色板 - 暗色模式 */
+    --background: #1a1a1a; /* 深邃背景 */
+    --foreground: #e9ecef; /* 浅灰文字 */
+    --primary: #6cb4b8; /* 亮青蓝 - 主色调 */
+    --secondary: #8aabb4; /* 浅灰蓝 - 辅助色 */
+    --accent: #495057; /* 深灰 - 点缀色 */
+    --card-background: #212529; /* 卡片背景 */
+    --card-border: #495057; /* 卡片边框 */
+    --link-color: #8cbcc0; /* 链接颜色 */
+    --button-bg: var(--primary);
+    --button-text: #1a1a1a;
+    --button-hover-bg: #8cbcc0;
   }
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 全局链接样式 */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+/* 全局按钮基础样式 (可被 Tailwind 覆盖或扩展) */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px; /* 圆角 */
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 全局卡片基础样式 (可被 Tailwind 覆盖或扩展) */
+.card {
+  background-color: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 0.5rem; /* 8px */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
