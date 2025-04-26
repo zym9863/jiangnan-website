@@ -27,14 +27,14 @@ export default function Culture() {
                 江南是中国古代文学的重要发源地之一，唐宋以来，众多文人墨客在此留下了不朽的诗词歌赋。苏轼、白居易、陆游等文学巨匠都曾在江南留下足迹，创作了大量描绘江南风光的名篇佳作。
               </p>
               <p className="text-gray-600">
-                江南画派以写意山水画著称，强调意境与神韵，代表人物有"吴门四家"等。此外，昆曲、越剧等戏曲艺术也是江南文化的重要组成部分。
+                江南画派以写意山水画著称，强调意境与神韵，代表人物有&quot;吴门四家&quot;等。此外，昆曲、越剧等戏曲艺术也是江南文化的重要组成部分。
               </p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">园林建筑</h3>
               <p className="text-gray-600 mb-6">
-                江南园林以其精巧的布局、雅致的意境和丰富的文化内涵著称于世。苏州园林被誉为"咫尺之内再造乾坤"，体现了中国传统哲学思想与审美观念的完美结合。
+                江南园林以其精巧的布局、雅致的意境和丰富的文化内涵著称于世。苏州园林被誉为&quot;咫尺之内再造乾坤&quot;，体现了中国传统哲学思想与审美观念的完美结合。
               </p>
               <p className="text-gray-600">
                 江南民居建筑多为白墙黛瓦，粉墙黛瓦、小桥流水成为江南水乡的典型意象。徽派建筑则以其马头墙、精美的木雕石刻闻名。
@@ -54,7 +54,7 @@ export default function Culture() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">苏绣</h3>
-              <p className="text-gray-600 mb-4">苏绣是中国四大名绣之一，以其针法细腻、图案精美、色彩和谐著称，被誉为"绣中之冠"。苏绣历史悠久，技艺精湛，能将自然景观、花鸟虫鱼栩栩如生地呈现在绣品上，是江南地区重要的非物质文化遗产。</p>
+              <p className="text-gray-600 mb-4">苏绣是中国四大名绣之一，以其针法细腻、图案精美、色彩和谐著称，被誉为&quot;绣中之冠&quot;。苏绣历史悠久，技艺精湛，能将自然景观、花鸟虫鱼栩栩如生地呈现在绣品上，是江南地区重要的非物质文化遗产。</p>
               <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">了解更多 →</Link>
             </div>
 
@@ -65,7 +65,7 @@ export default function Culture() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">宜兴紫砂</h3>
-              <p className="text-gray-600 mb-4">宜兴紫砂陶艺是江苏宜兴特有的传统工艺，以其独特的材质和工艺闻名于世。紫砂壶不仅是实用的茶具，更是艺术品和收藏品，体现了中国传统文化中"天人合一"的哲学思想。</p>
+              <p className="text-gray-600 mb-4">宜兴紫砂陶艺是江苏宜兴特有的传统工艺，以其独特的材质和工艺闻名于世。紫砂壶不仅是实用的茶具，更是艺术品和收藏品，体现了中国传统文化中&quot;天人合一&quot;的哲学思想。</p>
               <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">了解更多 →</Link>
             </div>
 
@@ -76,7 +76,7 @@ export default function Culture() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">南京云锦</h3>
-              <p className="text-gray-600 mb-4">南京云锦是中国传统丝织工艺的代表，被誉为"中国第一锦"。云锦织造技艺复杂，图案华丽，色彩绚丽，集实用性与艺术性于一体，是中国古代纺织技术的巅峰之作。</p>
+              <p className="text-gray-600 mb-4">南京云锦是中国传统丝织工艺的代表，被誉为&quot;中国第一锦&quot;。云锦织造技艺复杂，图案华丽，色彩绚丽，集实用性与艺术性于一体，是中国古代纺织技术的巅峰之作。</p>
               <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">了解更多 →</Link>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Culture() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">昆曲艺术展演</h3>
-              <p className="text-gray-600 mb-4">作为"百戏之祖"的昆曲是江南文化的瑰宝，定期举办的昆曲艺术展演让观众近距离感受这一古老艺术形式的魅力与风采。</p>
+              <p className="text-gray-600 mb-4">作为&quot;百戏之祖&quot;的昆曲是江南文化的瑰宝，定期举办的昆曲艺术展演让观众近距离感受这一古老艺术形式的魅力与风采。</p>
               <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">预约参观 →</Link>
             </div>
           </div>

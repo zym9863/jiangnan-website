@@ -21,7 +21,7 @@ export default function Attractions() {
           <p className="text-[var(--foreground)] opacity-80 mb-8 max-w-4xl mx-auto text-lg">
             江南地区拥有众多历史悠久、风景秀丽的景点，从古典园林到水乡古镇，从历史名胜到自然风光，处处彰显着江南特有的风味与魅力。
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {/* 应用 .card */}
             <div className="card overflow-hidden">
@@ -44,7 +44,7 @@ export default function Attractions() {
                 </div>
               </div>
             </div>
-            
+
             {/* 应用 .card */}
             <div className="card overflow-hidden">
               {/* 应用颜色变量 */}
@@ -57,7 +57,7 @@ export default function Attractions() {
                 <h3 className="text-xl font-semibold mb-2">西湖风景区</h3>
                 {/* 应用颜色变量 */}
                 <p className="text-[var(--foreground)] opacity-80 mb-4">
-                  杭州西湖以其秀丽的湖光山色和丰富的人文景观著称，"西湖十景"如雷贯耳，自古以来就是文人墨客向往的胜地，被誉为"人间天堂"。
+                  杭州西湖以其秀丽的湖光山色和丰富的人文景观著称，&quot;西湖十景&quot;如雷贯耳，自古以来就是文人墨客向往的胜地，被誉为&quot;人间天堂&quot;。
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-gray-500">浙江杭州</span>
@@ -66,7 +66,7 @@ export default function Attractions() {
                 </div>
               </div>
             </div>
-            
+
             {/* 应用 .card */}
             <div className="card overflow-hidden">
               {/* 应用颜色变量 */}
@@ -79,7 +79,7 @@ export default function Attractions() {
                 <h3 className="text-xl font-semibold mb-2">周庄古镇</h3>
                 {/* 应用颜色变量 */}
                 <p className="text-[var(--foreground)] opacity-80 mb-4">
-                  周庄被誉为"中国第一水乡"，保存着完整的明清建筑群和水乡风貌，小桥流水、粉墙黛瓦构成了一幅典型的江南水乡画卷。
+                  周庄被誉为&quot;中国第一水乡&quot;，保存着完整的明清建筑群和水乡风貌，小桥流水、粉墙黛瓦构成了一幅典型的江南水乡画卷。
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-gray-500">江苏昆山</span>
@@ -105,7 +105,7 @@ export default function Attractions() {
               {/* 应用颜色变量和 Link 组件 */}
               <Link href="#" className="text-[var(--link-color)] hover:text-[var(--primary)] font-medium">了解更多 →</Link>
             </div>
-            
+
             {/* 应用颜色变量 */}
             <div className="bg-[var(--accent)] p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">南京夫子庙</h3>
@@ -135,7 +135,7 @@ export default function Attractions() {
               {/* 应用颜色变量 */}
               <p className="text-[var(--foreground)] opacity-80 text-sm">中国第三大淡水湖，湖光山色，风景如画</p>
             </div>
-            
+
             {/* 应用 .card */}
             <div className="card p-4">
               {/* 应用颜色变量 */}
@@ -148,7 +148,7 @@ export default function Attractions() {
               {/* 应用颜色变量 */}
               <p className="text-[var(--foreground)] opacity-80 text-sm">浙江名山，竹海茂密，避暑胜地</p>
             </div>
-            
+
             {/* 应用 .card */}
             <div className="card p-4">
               {/* 应用颜色变量 */}
@@ -161,7 +161,7 @@ export default function Attractions() {
               {/* 应用颜色变量 */}
               <p className="text-[var(--foreground)] opacity-80 text-sm">安徽名山，奇松怪石，云海日出</p>
             </div>
-            
+
             {/* 应用 .card */}
             <div className="card p-4">
               {/* 应用颜色变量 */}

@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +19,7 @@ const Navbar = () => {
               <span className="text-xl font-bold text-blue-800">江南之美</span>
             </Link>
           </div>
-          
+
           {/* 桌面导航 */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
@@ -39,7 +38,7 @@ const Navbar = () => {
               旅游攻略
             </Link>
           </div>
-          
+
           {/* 移动端菜单按钮 */}
           <div className="md:hidden flex items-center">
             <button
@@ -68,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
+
       {/* 移动端菜单 */}
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">

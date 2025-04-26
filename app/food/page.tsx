@@ -20,7 +20,7 @@ export default function Food() {
           <p className="text-gray-600 mb-8 max-w-4xl mx-auto text-lg">
             江南地区的美食以清淡精致、鲜美可口著称，讲究原料的新鲜和烹饪的精细，形成了独具特色的江南菜系，包括苏菜、浙菜、徽菜等。
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-56 bg-gray-200 relative">
@@ -39,7 +39,7 @@ export default function Food() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-56 bg-gray-200 relative">
                 <svg className="w-12 h-12 text-gray-400 absolute inset-0 m-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ export default function Food() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-56 bg-gray-200 relative">
                 <svg className="w-12 h-12 text-gray-400 absolute inset-0 m-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@ export default function Food() {
               <h3 className="text-lg font-semibold mb-2">南京盐水鸭</h3>
               <p className="text-gray-600 text-sm">肉质鲜嫩，咸淡适中，风味独特</p>
             </div>
-            
+
             <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
               <div className="h-40 bg-gray-200 mb-4 rounded-lg flex items-center justify-center">
                 <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,7 +101,7 @@ export default function Food() {
               <h3 className="text-lg font-semibold mb-2">杭州小笼包</h3>
               <p className="text-gray-600 text-sm">皮薄馅多，汤汁丰富，鲜香可口</p>
             </div>
-            
+
             <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
               <div className="h-40 bg-gray-200 mb-4 rounded-lg flex items-center justify-center">
                 <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +111,7 @@ export default function Food() {
               <h3 className="text-lg font-semibold mb-2">无锡小笼</h3>
               <p className="text-gray-600 text-sm">肉馅鲜美，汤汁浓郁，一绝</p>
             </div>
-            
+
             <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow">
               <div className="h-40 bg-gray-200 mb-4 rounded-lg flex items-center justify-center">
                 <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -131,11 +131,11 @@ export default function Food() {
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">西湖龙井</h3>
               <p className="text-gray-600 mb-6">
-                西湖龙井是中国十大名茶之一，产于杭州西湖周围，以其"色绿、香郁、味甘、形美"四绝著称，是中国绿茶的代表，也是江南地区最著名的特产之一。
+                西湖龙井是中国十大名茶之一，产于杭州西湖周围，以其&quot;色绿、香郁、味甘、形美&quot;四绝著称，是中国绿茶的代表，也是江南地区最著名的特产之一。
               </p>
               <Link href="#" className="text-blue-600 hover:text-blue-800 font-medium">了解更多 →</Link>
             </div>
-            
+
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">绍兴黄酒</h3>
               <p className="text-gray-600 mb-6">
